@@ -338,7 +338,7 @@ start_setup() {
         echo_success "Watchman installed."
     else
         start_install "Missing watchman.   Installing..."
-        brew install watchman
+        log_output "brew install watchman"
         finish_install "Watchman installed."
     fi
 
@@ -346,7 +346,7 @@ start_setup() {
         echo_success "ngrok installed."
     else
         start_install "Missing ngrok.   Installing..."
-        brew install ngrok
+        log_output "brew cask install ngrok"
         finish_install "ngrok installed."
     fi
 
