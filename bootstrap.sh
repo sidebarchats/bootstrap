@@ -505,6 +505,14 @@ start_setup() {
         finish_install "Ttab installed."
     fi
 
+    if is_installed firebase; then
+        echo_success "firebase-tools installed."
+    else
+        start_install "Installing firebase-tools..."    
+        log_output "npm install -g firebase-tools"
+        finish_install "firebase-tools installed."
+    fi
+
     start_install "Installing dewey for python 2..."    
     log_output "pip install git+https://git@github.com/sidebarchats/dewey.git#egg=dewey --upgrade"
     finish_install "Dewey installed for python 2."
