@@ -513,6 +513,9 @@ start_setup() {
         finish_install "firebase-tools installed."
     fi
 
+    echo "Logging in with firebase tools..."
+    firebase login
+
     start_install "Installing dewey for python 2..."    
     log_output "pip install git+https://git@github.com/sidebarchats/dewey.git#egg=dewey --upgrade"
     finish_install "Dewey installed for python 2."
@@ -556,6 +559,7 @@ start_setup() {
     setup_codebase backend
     setup_codebase bootstrap
     setup_codebase dev-setup
+    setup_codebase firebase-backend
     setup_codebase dewey
     setup_codebase hook
     setup_codebase meta
