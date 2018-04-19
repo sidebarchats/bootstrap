@@ -546,6 +546,7 @@ start_setup() {
     cd $CODEPATH
     setup_codebase app
     setup_codebase backend
+    setup_codebase bootstrap
     setup_codebase dev-setup
     setup_codebase dewey
     setup_codebase hook
