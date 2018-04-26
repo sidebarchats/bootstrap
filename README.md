@@ -11,7 +11,12 @@ While it's running,
 
 # Grok the system
 
-Here is the [Overall Schema, Users, Apps, and Data Flow](https://github.com/sidebarchats/meta/wiki/Overall-Schema-and-Data-Flow).  Please grok it, and raise any questions in slack!
+Please read and grok our:
+- [Dev Workflow and Principles](https://github.com/sidebarchats/meta/wiki/Developer-Workflow-&-Principles)
+- [Overall Schema, Users, Codebases, and Data Flow](https://github.com/sidebarchats/meta/wiki/Overall-Schema-and-Data-Flow) 
+
+Please grok both of those, and raise any questions in Slack!
+
 
 
 # Get hacking.
