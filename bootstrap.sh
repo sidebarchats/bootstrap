@@ -342,7 +342,7 @@ start_setup() {
         finish_install "Watchman installed."
     fi
 
-    if brew ls ngrok &> /dev/null; then
+    if is_installed ngrok &> /dev/null; then
         echo_success "ngrok installed."
     else
         start_install "Missing ngrok.   Installing..."
@@ -558,6 +558,7 @@ start_setup() {
     setup_codebase app
     setup_codebase backend
     setup_codebase bootstrap
+    setup_codebase demo
     setup_codebase dev-setup
     setup_codebase firebase-backend
     setup_codebase dewey
