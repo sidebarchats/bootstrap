@@ -2,7 +2,7 @@
 # Developer Magical Setup One-liner:
 
 ```bash
-bash <(curl -s https://raw.githubusercontent.com/sidebarchats/meta/master/bootstrap.sh)
+bash <(curl -s https://raw.githubusercontent.com/sidebarchats/bootstrap/master/bootstrap.sh)
 ```
 
 This will run our setup script, prompting you before it does anything, and broadly just downloads the sidebar codebases, and makes sure you've got the required languages and libraries installed.  Uses nvm, virtualenv, and best practices to keep your system clean.
