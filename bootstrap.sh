@@ -131,7 +131,7 @@ Here's what it does:
 2. Installs nvm, npm, python3, pip, and docker.
 3. Sets up a virtual environment (using virtualenv and nodeenv) for our apps.
 4. Asks you where you want to store the codebases, then clones them down.
-5. Installs dewey, our helpful CLI tool to switch environments, get hacking, run test, and get things done.
+5. Installs dewey, our helpful CLI tool to switch environments, get hacking, run tests, and get things done.
 
 If you run into any snags, please report them in Slack, and/or fix them!"
 
