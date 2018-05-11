@@ -559,7 +559,6 @@ start_setup() {
     setup_codebase backend
     setup_codebase bootstrap
     setup_codebase demo
-    setup_codebase dev-setup
     setup_codebase firebase-backend
     setup_codebase dewey
     setup_codebase hook
