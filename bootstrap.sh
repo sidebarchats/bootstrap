@@ -176,7 +176,8 @@ setup_codebase() {
         echo_success "$1 cloned."
     else
         start_install "Cloning $1 ..."
-        git clone git@github.com:sidebarchats/$1.git >> install.log 2>&1
+        git clone https://github.com/sidebarchats/$1.git >> install.log 2>&1
+        # git clone git@github.com:sidebarchats/$1.git >> install.log 2>&1
         FINISH_OUTPUT="$1 has been cloned."
         finish_install_submethod
     fi
