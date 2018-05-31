@@ -497,6 +497,14 @@ start_setup() {
         log_output "brew install docker-compose"
         finish_install "Docker Compose installed."
     fi
+    
+    start_install "Installing yarn..."    
+    log_output "npm install -g yarn"
+    finish_install "yarn installed."
+
+    start_install "Installing @storybook/cli..."    
+    log_output "npm install -g @storybook/cli"
+    finish_install "@storybook/cli installed."
 
     if is_installed ttab; then
         echo_success "Ttab installed"
