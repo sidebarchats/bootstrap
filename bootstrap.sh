@@ -565,6 +565,8 @@ start_setup() {
     echo "Setting up codebases."
     cd $CODEPATH
     setup_codebase app
+    setup_codebase app-native
+    setup_codebase app-web
     setup_codebase backend
     setup_codebase bootstrap
     setup_codebase demo
