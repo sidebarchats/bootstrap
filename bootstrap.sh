@@ -573,6 +573,7 @@ start_setup() {
     setup_codebase design
     setup_codebase firebase-backend
     setup_codebase dewey
+    setup_codebase marketing
     setup_codebase hook
     setup_codebase meta
     setup_codebase portal
