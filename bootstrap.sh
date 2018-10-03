@@ -577,6 +577,7 @@ start_setup() {
     setup_codebase hook
     setup_codebase meta
     setup_codebase portal
+    setup_codebase splash
     setup_codebase will
     setup_codebase widget
 
